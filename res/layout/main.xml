@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#f7f7f7" >
+    
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content" 
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="4dp"
+        android:text="UN"
+        android:textSize="32dp"
+        android:textColor="#858585"
+        android:textStyle="bold"
+        android:background="#f7f7f7"
+        android:shadowColor="#575757"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
+        
+    <Button 
+        android:id="@+id/search_button"
+        android:layout_alignParentTop="true"
+        android:layout_width="50dp" 
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:onClick="search"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/go"
+        android:textSize="14sp"
+        android:text="Go"
+        android:textColor="#ffffff" />
+    
+    <EditText
+        android:id="@+id/search_edittext"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent" 
+        android:layout_height="36dp" 
+        android:layout_toLeftOf="@id/search_button" 
+        android:layout_toRightOf="@id/home_button"
+        android:hint="Search Uncyclopedia"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        android:imeOptions="actionSearch"
+        android:textColor="#2e2e2e" />
+    
+    <View
+        android:id="@+id/shadow_view"
+        android:layout_below="@id/search_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shadow" />
+    
+    <WebView 
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/shadow_view"
+        android:background="@drawable/background_bitmap" />
+    
+</RelativeLayout>
+
