@@ -1,6 +1,9 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ * 
+ * To view a copy of this license,
+ * visit http://creativecommons.org/licenses/by-sa/3.0/.
  */
 package com.judepereira.android.co.uncyclopedia.db;
 
@@ -11,7 +14,6 @@ import android.database.sqlite.SQLiteCursor;
 import android.database.sqlite.SQLiteDatabase;
 import com.judepereira.android.co.uncyclopedia.dto.Bookmark;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  *

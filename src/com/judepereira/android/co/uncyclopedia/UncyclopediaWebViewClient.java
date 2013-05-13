@@ -1,6 +1,9 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ * 
+ * To view a copy of this license,
+ * visit http://creativecommons.org/licenses/by-sa/3.0/.
  */
 package com.judepereira.android.co.uncyclopedia;
 
@@ -22,10 +25,8 @@ import java.util.EmptyStackException;
 import java.util.Stack;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
-import org.apache.http.client.CookieStore;
 import org.apache.http.client.entity.GzipDecompressingEntity;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
